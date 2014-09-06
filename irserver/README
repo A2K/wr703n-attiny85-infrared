@@ -1,0 +1,14 @@
+
+This is a UDP server that runs on port 32000 transceiving everything it receives to I2C bus /dev/i2c-0.
+
+1. Get OpenWRT source code and compile the toolchain:
+    https://dev.openwrt.org/wiki/GetSource
+    http://wiki.openwrt.org/doc/howto/build
+
+2. Edit env.sh and set TOOLCHAIN variable to your OpenWRT cross compilation toolchain directory
+
+3. Export variables from env.sh: 
+    . ./env.sh
+
+4. Simply run "make"
+
