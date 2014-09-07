@@ -22,7 +22,7 @@ ATtiny85 and LED circuit:
 
 ![LED wiring](https://raw.githubusercontent.com/A2K/wr703n-attiny85-infrared/master/diagrams/LED_wiring.png)
 
-For transmitting volume control commands to the WR703N I am using [BetterTouchTool](http://www.boastr.net/) for binding custom hotkeys which executes terminal commands like this:
+For transmitting volume control commands to the WR703N I am using [BetterTouchTool](http://www.boastr.net/) for binding custom hotkeys with "Execute Terminal Command" action like this:
     
     echo '+' | nc -u -w0 192.168.0.13 32000
 
