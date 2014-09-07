@@ -16,9 +16,9 @@ http://pragti.ch/kippycam/2012/08/15/Adding-an-I2C-interface-to-the-TL-WR703N/
 
 Here is a backup copy of the photo of soledered wires from that article:
 
-![Solered wires](https://raw.githubusercontent.com/A2K/wr703n-attiny85-infrared/master/diagrams/LED_wiring.png)
+![Solered wires](https://raw.githubusercontent.com/A2K/wr703n-attiny85-infrared/master/diagrams/WR703N_wiring.png)
 
 ATtiny85 and LED circuit:
 
-![LED circuit](https://raw.github.com/A2K/wr703n-attiny85-infrared/diagrams/LED_wiring.png)
+![LED wiring](https://raw.githubusercontent.com/A2K/wr703n-attiny85-infrared/master/diagrams/LED_wiring.png)
 
