@@ -1,0 +1,42 @@
+<html>
+
+<head>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+  <style>
+    body {
+      background-color: #fefefe;
+      font-family: helvetica;
+    }
+    .button {
+      width: 20%;
+      height: 50px;
+      border: solid 1px;
+      font-size: 30px;
+    }
+  </style>
+
+  <title>Volume control</title>
+
+</head>
+
+<script language="javascript">
+  $(document).ready(function() {
+    $('#volumeplus').click(function() {
+      $.get("/bin/volume/plus");
+    });
+    $('#volumeminus').click(function() {
+      $.get("/bin/volume/minus");
+    });
+  });
+</script>
+
+<body style="font-family:helvetica;">
+  <H1>Volume</H1>
+  <input type="button" value="+" id="volumeplus" class="button" style="background-color:#ffcccc;">
+  <input type="button" value="-" id="volumeminus" class="button" style="background-color:#ccffcc;">
+</body>
+
+</html>
+
