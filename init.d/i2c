@@ -1,0 +1,8 @@
+#!/bin/sh /etc/rc.common
+
+START=96
+
+start()
+{
+    insmod i2c-gpio-custom bus0=0,29,7
+}
